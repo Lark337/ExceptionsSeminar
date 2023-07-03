@@ -26,7 +26,6 @@ public static boolean isFloat(String s){
                 Float.parseFloat(s);
                 return true;
             } catch (NumberFormatException e) {
-                System.out.println("kek");
                 return false;
             }
         }
